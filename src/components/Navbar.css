@@ -1,0 +1,29 @@
+/* Universal styling */
+.active {
+  text-decoration: underline;
+  color: #ffd90b;
+}
+
+nav {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+.navbar__links-left {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar__links-right {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar__links {
+  padding-right: 24px;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+  cursor: pointer;
+  color: #ffd90b;
+}
