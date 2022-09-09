@@ -15,7 +15,9 @@
 }
 .footer__left-header {
   font-size: 18px;
-  padding: 2rem;
+  font-family: "League Spartan";
+  padding-top: 2.5rem;
+  padding-left: 1.6rem;
   margin-left: -1.4rem;
   color: #fff;
 }
