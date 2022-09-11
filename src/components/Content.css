@@ -24,6 +24,7 @@
   color: white;
   text-align: center;
   padding-bottom: 1rem;
+  /* text-decoration: underline; */
 }
 .content__main {
   display: flex;

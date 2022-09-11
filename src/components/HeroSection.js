@@ -10,6 +10,7 @@ function HeroSection() {
           class="hero__image"
           style={{
             zIndex: 1,
+            opacity: "90%",
           }}
         />
       </div>

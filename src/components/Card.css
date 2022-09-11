@@ -4,6 +4,10 @@
 .info {
   padding-top: 0.9rem;
   padding-left: 0.7rem;
+  transition: all 0.3s ease-in-out;
+}
+.info:hover {
+  color: rgb(178, 178, 178);
 }
 
 .card__container {
