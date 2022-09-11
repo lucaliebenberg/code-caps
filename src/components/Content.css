@@ -1,0 +1,35 @@
+.content__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #141b25;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content__banner {
+  width: 70vw;
+  height: 120px;
+  background-color: green;
+  color: white;
+}
+/* .check {
+} */
+.content__header {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.content__main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 45rem;
+}
