@@ -33,7 +33,7 @@ function Navbar(props) {
               listStyle: "none",
             }}
           >
-            <li className="navbar__links">Help</li>
+            <li className="navbar__links">All Capsules</li>
             <li className="navbar__links">Community</li>
             <li className="navbar__links active">Status</li>
           </ul>
@@ -44,7 +44,7 @@ function Navbar(props) {
             src="https://i.ibb.co/HTLZ6yY/Code-Capsules-logo-dark-Mode.png"
             alt="Code Capsules logo"
             style={{
-              paddingLeft: 120,
+              paddingRight: 24,
             }}
           />
         </div>
@@ -59,9 +59,9 @@ function Navbar(props) {
               listStyle: "none",
             }}
           >
-            <li className="navbar__links">Github.com</li>
-            <li className="navbar__links">Twitter</li>
-            <li className="navbar__links">Subscribe to updates</li>
+            <li className="navbar__links">Hosting</li>
+            <li className="navbar__links">Cloud</li>
+            <li className="navbar__links">Technology</li>
           </ul>
         </div>
       </nav>

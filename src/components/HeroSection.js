@@ -6,11 +6,13 @@ function HeroSection() {
     <div>
       <div className="hero__banner">
         <img
-          src="https://i.ibb.co/M83dnBc/hero-image.jpg"
+          src="https://i.ibb.co/vvMgTqB/banner-image2.jpg"
           class="hero__image"
           style={{
             zIndex: 1,
             opacity: "90%",
+            objectFit: "fill",
+            backgroundPosition: "center",
           }}
         />
       </div>

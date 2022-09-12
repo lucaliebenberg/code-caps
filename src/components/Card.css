@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 .fa {
   color: #ddd;
 }
@@ -8,6 +10,7 @@
 }
 .info:hover {
   color: rgb(178, 178, 178);
+  cursor: pointer;
 }
 
 .card__container {
@@ -31,14 +34,14 @@
   font-size: 14px;
   padding-left: 0.5rem;
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 .card__left-status {
   color: grey;
-  font-size: 11px;
+  font-size: 13px;
   padding-left: 0.5rem;
-  padding-bottom: 2rem;
-  margin: 0rem;
-  margin-bottom: 0.75rem;
+  padding-top: 0.4rem;
+  margin-top: 0rem;
 }
 
 /* .card__right {

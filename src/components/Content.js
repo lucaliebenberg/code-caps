@@ -3,7 +3,7 @@ import "./Content.css";
 import Card from "./Card";
 import "./Card.css";
 
-function Content() {
+function Content(props) {
   return (
     <div>
       <div className="content__container">
@@ -14,16 +14,16 @@ function Content() {
         <div className="content">
           <h1 className="content__header">Current Status</h1>
           <div className="content__main">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card title="Git Operations" status="Normal" />
+            <Card title="Webhooks" status="Normal" />
+            <Card title="Pull Requests" status="Normal" />
+            <Card title="Packages" status="Normal" />
+            <Card title="Codespaces" status="Normal" />
+            <Card title="API Requests" status="Normal" />
+            <Card title="Issues" status="Normal" />
+            <Card title="Actions" status="Normal" />
+            <Card title="Pages" status="Normal" />
+            <Card title="Copilot" status="Normal" />
           </div>
         </div>
       </div>
